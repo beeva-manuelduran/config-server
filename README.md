@@ -31,4 +31,5 @@ Este proyecto está dividido en tres repositorios:
 Es necesario indicar las siguientes propiedades en el fichero `application.properties`:
 - `spring.cloud.config.server.git.uri`: url del repositorio Git donde se encuentran los ficheros de propiedades. Más info [aquí](http://cloud.spring.io/spring-cloud-config/spring-cloud-config.html#_git_backend).
 - `host`, `port`, `username` y `password` de la cola de mensajes. Más info [aquí](http://projects.spring.io/spring-cloud/spring-cloud.html#_spring_cloud_bus)
+- para arrancar basta con ejecutar el comando `mvn spring-boot:run`
 
